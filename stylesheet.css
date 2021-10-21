@@ -43,9 +43,6 @@ a.btn-logo {
     color: #555;
     transition: 0.3s;
 }
-a.btn-logo:hover{
-    color: white;
-}
 
 header ul {
     list-style-type: none;
