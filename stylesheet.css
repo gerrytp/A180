@@ -195,6 +195,7 @@ p {
     align-items: center;
     text-align: center;
     background:linear-gradient(to right,white , #a4c3d2);
+    font-weight: 700;
 }
 
 .lesson {
@@ -257,6 +258,7 @@ p {
     background:linear-gradient(to right,white , #a4c3d2);
     padding:30px 0px 30px 0px;
     color:#555;
+    font-weight: 20px;
 }
 
 #contact img {
@@ -279,13 +281,13 @@ p {
 
 .footer-right {
     padding-top: 90px;
-    margin: auto;
+    margin: 20px;
 }
 
 h3 {
-    font-weight: 300;
+    font-weight: 700;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #555;
     width: 100%;
     line-height: 50px;
