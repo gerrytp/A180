@@ -16,15 +16,6 @@ body {
     margin: auto;
     position: relative;
 }
-
-.logo a {
-    font-size: 20px;
-    font-weight: 700px;
-    float: left;
-    font-family: Poppins;
-    color: #364f6b;
-}
-
 .menu {
     float: right;
 }
