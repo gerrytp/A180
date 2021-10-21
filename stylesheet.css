@@ -133,6 +133,7 @@ a.btn-pink:active {
 .main {
     padding: 200px 0 200px 0;
     background-image: url(consulting.jpg);
+    opacity:20%;
     background-size: cover;
     color:#FFFFFF;
     text-align: center;
