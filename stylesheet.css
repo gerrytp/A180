@@ -87,13 +87,13 @@ section {
 .kolom .heading {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
+    font-family: 'poppins';
     color: #364f6b;
 }
 
 h2 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
+    font-family: 'poppins';
+    font-weight: 400;
     font-size: 45px;
     margin-bottom: 20px;
     color: #364f6b;
@@ -198,6 +198,7 @@ p {
     align-items: center;
     text-align: center;
     background:linear-gradient(to right,white , #a4c3d2);
+    
 }
 
 .lesson {
@@ -250,11 +251,11 @@ p {
 }
 
 .kartu-tim p {
-    font-family: 'comic sans ms';
-    font-weight: 800;
+    font-family: 'Poppins';
+    font-weight: 400;
     font-size: 25px;
     text-align: center;
-    color: #364f6b;
+    color: #555;
 }
 
 #contact {
@@ -287,8 +288,8 @@ p {
 }
 
 h3 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
+    font-family: 'Poppins';
+    font-weight: 400;
     font-size: 30px;
     margin-bottom: 20px;
     color: #364f6b;
