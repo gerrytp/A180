@@ -1,0 +1,73 @@
+/* Untuk Tablet */
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+  
+    header .menu {
+        width: 100%;
+        margin: 0;
+    }
+  
+    header .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+  
+    header .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+  
+    section {
+        display: block;
+    }
+  
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+  
+    .kartu-tim {
+        width: 50%;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .lesson {
+        width: 100%;
+    }
+      
+    .btn {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .services-list {
+        flex-wrap: wrap;
+    }
+    .lesson-icon {
+        display: block;
+      }
+}
