@@ -20,6 +20,43 @@ a.btn-logo {
 a.btn-logo:hover{
     color: white;
 }
+
+a.btn-home {
+    font-weight: 300;
+    color: #555;
+    transition: 0.3s;
+}
+a.btn-home:hover{
+    color: white;
+}
+
+a.btn-services {
+    font-weight: 300;
+    color: #555;
+    transition: 0.3s;
+}
+a.btn-services:hover{
+    color: white;
+}
+
+a.btn-about {
+    font-weight: 300;
+    color: #555;
+    transition: 0.3s;
+}
+a.btn-about:hover{
+    color: white;
+}
+
+a.btn-contact {
+    font-weight: 300;
+    color: #555;
+    transition: 0.3s;
+}
+a.btn-contact:hover{
+    color: white;
+}
+
 .navbar{
     display:flex;
     align-items:center;
@@ -60,7 +97,7 @@ a.btn-signup {
 }
 header {
     height: 900px;
-    width: 1581px;
+    width: 1583px;
     background-image: url("red-velvet.jpg");
     background-size: 200%;
     opacity: 100%;
@@ -77,27 +114,29 @@ header {
     align-items: center;
     padding: 400px 200px;
     height: 900px;
-    width: 1581px;
+    width: 1583px;
     background-image: linear-gradient(to right,white , #fffebe)
 }
 .Quotes h1{
-    font-weight: 700;
+    font-family: Cormorant Garamond;
+    font-style: italic;
+    font-weight: 400;
     text-align:center;
-    font-size: 40px;
+    font-size: 50px;
     color:#555;
 }
 .Quotes p{
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: 300;
     text-align:center;
     font-size: 27px;
     color:#555;
 }
-.services-wrapper {
+#services {
     align-items: center;
     height: 900px;
-    width: 1581px;
-    background:linear-gradient(to bottom right, #e2e2e2e2, #daeaf6);
+    width: 1583px;
+    background:linear-gradient(to right,white , #a4c3d2);
     text-align: center;
 }
 .heading{
@@ -114,6 +153,10 @@ header {
   /* Tambahkan CSS untuk lesson-icon */
   .lesson-icon {
     position:relative;
+  }
+  .lesson-icon img{
+    max-width:85%;
+    height:auto;
   }
   
   /* Tambahkan CSS untuk tag <p> didalam lesson-icon */
@@ -149,26 +192,26 @@ header {
     font-size: 23px;
 }
 a.btn-below:hover{
-    background-color: cornsilk;
-    color:#555;
+    background-color: #555;
+    color:#fff;
 
 }
-.about-us{
+#about{
     align-items: left;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 200px 200px;
     height: 500px;
-    width: 1581px;
+    width: 1583px;
     background-image: white;
 }
-.about-us h1{
+#about h1{
     font-weight: 700;
     text-align:left;
     font-size: 40px;
     color:#555;
 }
-.about-us p{
+#about p{
     margin-top: 10px;
     font-weight: 300;
     text-align:left;
@@ -236,4 +279,7 @@ a.btn-below:hover{
     width: 100%;
     padding: 0px 0px 0px 0px;
     margin-top: 160px;
+}
+body {
+    background-image: linear-gradient(to right,white , #fffebe)
 }
