@@ -1,122 +1,168 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
+
 body {
-    font-family: Poppins, sans-serif;
-    font-weight: 300;
-}
-.logo-image img{
-    width: 40px;
-    height: 40px;
-}
-a.btn-logo {
-    font-weight: 700;
-    font-size: 25px;
-    color: #555;
-    transition: 0.3s;
-}
-a.btn-logo:hover{
-    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(to right,white , #fffebe)
 }
 
-a.btn-home {
-    font-weight: 300;
-    color: #555;
-    transition: 0.3s;
-}
-a.btn-home:hover{
-    color: white;
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
 }
 
-a.btn-services {
-    font-weight: 300;
-    color: #555;
-    transition: 0.3s;
-}
-a.btn-services:hover{
-    color: white;
-}
-
-a.btn-about {
-    font-weight: 300;
-    color: #555;
-    transition: 0.3s;
-}
-a.btn-about:hover{
-    color: white;
+.logo a {
+    font-size: 20px;
+    font-weight: 700px;
+    float: left;
+    font-family: Poppins;
+    color: #364f6b;
 }
 
-a.btn-contact {
-    font-weight: 300;
-    color: #555;
-    transition: 0.3s;
-}
-a.btn-contact:hover{
-    color: white;
+.menu {
+    float: right;
 }
 
-.navbar{
-    display:flex;
-    align-items:center;
-    padding: 50px;
-    opacity: 100%;
+header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: radial-gradient(#f5f9ee,#eef2e2);
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+    font: Poppins;
 }
-nav{
-    flex: 1;
-    text-align: right;
-}
-nav ul{
-    display: inline-block;
-    list-style-type: none;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 20px
-}
-a{
+
+.logo {
     text-decoration: none;
     color: #555;
 }
-p{
-    color:#555;
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-a.btn-signup {
-    background-color: #555;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 10px 20px;
-    color: white;
-    cursor: pointer;
-    font-weight: 500;
-    transition: 0.5s;
-}a.btn-signup:hover{
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
     background-color:white;
     color: #555;
 }
-header {
-    height: 900px;
-    width: 1583px;
-    background-image: url("red-velvet.jpg");
-    background-size: 200%;
-    opacity: 100%;
-}
-.col-2 h1{
 
-    font-size: 90px;
-    color:#fff;
-    padding-top:230px;
-    padding-left:400px;
-    text-shadow: #555;
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
 }
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.kolom .heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.btn-biru {
+    background-color: #555;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-biru:hover {
+    background-color:white;
+    color: #555;
+    text-decoration: none;
+}
+
+a.btn-pink {
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    background-color:  cadetblue;
+    cursor: pointer;
+    box-shadow: 0 7px #555;
+}
+  
+a.btn-pink:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.main {
+    padding: 200px 0 200px 0;
+    background-image: url(red-velvet.jpg);
+    background-size: cover;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.home {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-size: medium;
+}
+.home h1 {
+    opacity: 100;
+    font-weight: bold;
+    font-size: 90px;
+    letter-spacing: 3px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    text-shadow: 3px 2px 1px grey;
+}
+
 .Quotes{
     align-items: center;
-    padding: 400px 200px;
-    height: 900px;
-    width: 1583px;
-    background-image: linear-gradient(to right,white , #fffebe)
+    padding: 200px 200px;
 }
+
 .Quotes h1{
     font-family: Cormorant Garamond;
     font-style: italic;
@@ -132,101 +178,65 @@ header {
     font-size: 27px;
     color:#555;
 }
-#services {
-    align-items: center;
-    height: 900px;
-    width: 1583px;
-    background:linear-gradient(to right,white , #a4c3d2);
-    text-align: center;
-}
-.heading{
-    text-align: center;
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     color:#555;
-    font-size: 40px;
-    padding: 150px 200px;
 }
+
+.tengah {
+    width: 100%;
+}
+
+#services {
+    padding-bottom: 100px;
+    margin: auto;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(to right,white , #a4c3d2);
+}
+
 .lesson {
     float: left;
     width: 25%;
-  }
+}
   
-  /* Tambahkan CSS untuk lesson-icon */
-  .lesson-icon {
+.lesson-icon {
     position:relative;
-  }
-  .lesson-icon img{
+}
+
+.lesson-icon img{
     max-width:85%;
     height:auto;
-  }
+}
   
-  /* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-  .lesson-icon p {
+.lesson-icon p {
     position: absolute;
     top: 90px;
     width:100%;
     color:#555;
     text-align: center;
     
-  }
+}
   
-  /* Tambahkan CSS untuk txt-contents */
-  .txt-contents {
+.txt-contents {
     width: 80%;
     display: inline-block;
     margin-top: 20px;
     font-size: 15px;
     color: #555;
-  }
-.btn-below {
-    padding-top: 465px;
 }
-  a.btn-below {
-    background-color: cadetblue;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px 100px;
-    color: white;
-    cursor: pointer;
-    font-weight: 700;
-    transition: 0.3s;
-    font-size: 23px;
-}
-a.btn-below:hover{
-    background-color: #555;
-    color:#fff;
 
-}
-#about{
-    align-items: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 200px 200px;
-    height: 500px;
-    width: 1583px;
-    background-image: white;
-}
-#about h1{
-    font-weight: 700;
-    text-align:left;
-    font-size: 40px;
-    color:#555;
-}
-#about p{
-    margin-top: 10px;
-    font-weight: 300;
-    text-align:left;
-    font-size: 23px;
-    color:#555;
-
-}
 .tim-list {
-    align-items: center;
     text-align: center;
-    width: 70%;
+    width: 100%;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 260px;
-    margin-bottom: 90px;
 }
 
 .kartu-tim {
@@ -235,36 +245,38 @@ a.btn-below:hover{
 }
 
 .kartu-tim img {
-    width: 70%;
+    width: 80%;
     border-radius: 50%;
 }
 
 .kartu-tim p {
-    font-weight: 300;
-    font-size: 20px;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
     text-align: center;
-    color: #555;
+    color: #364f6b;
 }
+
 #contact {
-    padding:70px 0px 50px 0px;
     background:linear-gradient(to right,white , #a4c3d2);
+    padding:30px 0px 30px 0px;
     color:#555;
 }
+
 #contact img {
     width: 80px;
     height: 80px;
-}
-
+}   
 .footer {
     width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-   align-items: center;
 }
 
 .footer-left {
-    font-size: 20px;
+    width: 500px;
+    margin: auto;
     margin: auto;
     text-align: center;
 }
@@ -274,12 +286,19 @@ a.btn-below:hover{
     margin: auto;
 }
 
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
 #copyright {
     text-align: center;
     width: 100%;
-    padding: 0px 0px 0px 0px;
-    margin-top: 160px;
-}
-body {
-    background-image: linear-gradient(to right,white , #fffebe)
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
 }
