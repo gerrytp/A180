@@ -16,6 +16,15 @@ body {
     margin: auto;
     position: relative;
 }
+
+.logo a {
+    font-size: 20px;
+    font-weight: 700px;
+    float: left;
+    font-family: Poppins;
+    color: #364f6b;
+}
+
 .menu {
     float: right;
 }
@@ -33,15 +42,10 @@ header {
     border-bottom:1px solid #364f6b;
     font: Poppins;
 }
-.logo-image img{
-    width: 40px;
-    height: 40px;
-}
-a.btn-logo {
-    font-weight: 700;
-    font-size: 25px;
+
+.logo {
+    text-decoration: none;
     color: #555;
-    transition: 0.3s;
 }
 
 header ul {
@@ -53,12 +57,11 @@ header ul {
 
 header ul li {
     float: left;
-    margin-right: 20px
 }
 
 header ul li a {
-    color: #555;
-    font-weight: 300;
+    color: black;
+    font-weight: bold;
     text-align: center;
     padding: 30px 10px 30px 10px;
     text-decoration: none;
@@ -84,16 +87,16 @@ section {
 .kolom .heading {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'poppins';
-    color: #555;
+    font-family: 'comic sans ms';
+    color: #364f6b;
 }
 
 h2 {
-    font-family: 'poppins';
-    font-weight: 400;
+    font-family: 'comic sans ms';
+    font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #555;
+    color: #364f6b;
     width: 100%;
     line-height: 50px;
 }
@@ -195,7 +198,6 @@ p {
     align-items: center;
     text-align: center;
     background:linear-gradient(to right,white , #a4c3d2);
-    
 }
 
 .lesson {
@@ -248,11 +250,11 @@ p {
 }
 
 .kartu-tim p {
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'comic sans ms';
+    font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #555;
+    color: #364f6b;
 }
 
 #contact {
@@ -285,8 +287,8 @@ p {
 }
 
 h3 {
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'comic sans ms';
+    font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
     color: #364f6b;
