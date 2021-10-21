@@ -22,7 +22,7 @@ body {
     font-weight: 700px;
     float: left;
     font-family: Poppins;
-    color: #364f6b;
+    color: #555;
 }
 
 .menu {
@@ -39,7 +39,6 @@ header {
     top: 0;
     background: radial-gradient(#f5f9ee,#eef2e2);
     z-index: 1;
-    border-bottom:1px solid #364f6b;
     font: Poppins;
 }
 
@@ -87,16 +86,14 @@ section {
 .kolom .heading {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #364f6b;
+    color: #555;
 }
 
 h2 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
+    font-weight: 300;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #364f6b;
+    color: #555;
     width: 100%;
     line-height: 50px;
 }
@@ -135,7 +132,7 @@ a.btn-pink:active {
 
 .main {
     padding: 200px 0 200px 0;
-    background-image: url(red-velvet.jpg);
+    background-image: url(consulting.jpg);
     background-size: cover;
     color:#FFFFFF;
     text-align: center;
@@ -250,11 +247,10 @@ p {
 }
 
 .kartu-tim p {
-    font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #364f6b;
+    color: #555;
 }
 
 #contact {
@@ -287,11 +283,10 @@ p {
 }
 
 h3 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
+    font-weight: 300;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #364f6b;
+    color: #555;
     width: 100%;
     line-height: 50px;
 }
