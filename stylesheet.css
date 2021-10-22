@@ -251,7 +251,7 @@ p {
 }
 
 .kartu-tim p {
-    font-weight: 800;
+    font-weight: 300;
     font-size: 25px;
     text-align: center;
     color: #555;
@@ -273,6 +273,7 @@ p {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    font-weight: 500px;
 }
 
 .footer-left {
@@ -285,10 +286,11 @@ p {
 .footer-right {
     padding-top: 90px;
     margin: 20px;
+    font-weight: 500px;
 }
 
 h3 {
-    font-weight: 700;
+    font-weight: 500px;
     font-size: 30px;
     margin-bottom: 30px;
     color: #555;
